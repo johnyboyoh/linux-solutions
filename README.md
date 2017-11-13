@@ -52,6 +52,21 @@ if __name__ == "__main__":
         download_file_from_google_drive(file_id, destination)
 
 ```
+## install open AI gym on windows:
+
+based on: 
+https://github.com/openai/gym/issues/11
+
+pip install gym
+pip install git+https://github.com/Kojoley/atari-py.git
+
+for this to work need to install git and Microsoft Visual C++ Build Tools
+https://git-scm.com/
+http://landinghub.visualstudio.com/visual-cpp-build-tools
+
+
+
+
 
 
 
